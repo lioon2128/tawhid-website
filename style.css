@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.tagline {
+  font-weight: 500;
+  color: #aaa;
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.about {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about img {
+  width: 280px;
+  border-radius: 12px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.philosophy, .eco {
+  margin-top: 15px;
+  font-style: italic;
+  color: #444;
+}
+
+.business {
+  background: #eef3f0;
+  border-radius: 12px;
+}
+
+.learning {
+  background: #fff;
+}
+
+.gallery .images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.contact a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  background: #111;
+  color: #aaa;
+  padding: 20px;
+}
